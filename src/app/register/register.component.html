@@ -1,0 +1,77 @@
+
+
+<div class="container">
+  <div class="row" id="add-child">
+    <div class="col s12 l6">
+      <div class="section">
+        <form>
+          <div class="input-field">
+            <i class="material-icons prefix">email</i>
+            <input type="email" id="add-email">
+            <label for="add-email">Your Email</label>
+          </div>
+          <div class="input-field">
+            <i class="material-icons prefix">account_circle</i>
+            <input type="text" id="name">
+            <label for="name">Display Name</label>
+          </div>
+          <div class="input-field">
+            <div class="row">
+              <div class="col s3">
+                <p>
+                  <label>
+                    <input class="with-gap" name="group3" type="radio" checked />
+                    <span>Girl</span>
+                  </label>
+                </p>
+              </div>
+              <div class="col s3">
+                <p>
+                  <label>
+                    <input class="with-gap" name="group3" type="radio"/>
+                    <span>Boy</span>
+                  </label>
+                </p>
+              </div>
+              <div class="col s3">
+                <p>
+                  <label>
+                    <input class="with-gap" name="group3" type="radio" />
+                    <span>Female</span>
+                  </label>
+                </p>
+              </div>
+              <div class="col s3">
+                <p>
+                  <label>
+                    <input class="with-gap" name="group3" type="radio" />
+                    <span>Male</span>
+                  </label>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="input-field">
+            <i class="material-icons prefix">today</i>
+            <input type="text" id="year">
+            <label for="year">Year Since</label>
+          </div>
+          <div class="input-field">
+            <i class="material-icons prefix">group</i>
+            <select id="my-class">
+              <option value="" disabled selected>What is your class</option>
+              <option value="4">PRIVATE LESSON</option>
+              <option value="1">SAT-AFTERNOON</option>
+              <option value="2">WED-EVENING</option>
+              <option value="3">FRI-EVENING</option>
+            </select>
+            <!--                        <label for="my-class">Class</label>-->
+          </div>
+          <div class="input-field ">
+            <a routerLink="/homework" class="btn waves-effect waves-light col s12">Add Child</a>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,25 @@
+<header>
+  <nav class="nav-wrapper teal lighten-2">
+    <div class="container">
+      <a routerLink="/home" class="brand-logo">Music studio</a>
+      <a href="#" class="sidenav-trigger" data-target="mobile-menu">
+        <i class="material-icons">menu</i>
+      </a>
+      <ul class="right hide-on-med-and-down">
+        <!-- Dropdown Trigger -->
+        <!--        <li><a class="dropdown-trigger" href="students.html" data-target="dropdown1"><i class="material-icons left">group</i>Students<i class="material-icons right">arrow_drop_down</i></a></li>-->
+        <li routerLinkActive="active"><a routerLink="/students"><i class="material-icons left">group</i>Students</a></li>
+        <li routerLinkActive="active"><a routerLink="/homework"><i class="material-icons left">music_note</i>Homework</a></li>
+        <li routerLinkActive="active"><a routerLink="/teacher"><i class="material-icons left">control_point</i>Teacher</a></li>
+        <li routerLinkActive="active"><a routerLink="/login"><i class="material-icons left">person</i>Login</a></li>
+      </ul>
+
+      <ul class="sidenav grey lighten-2" id="mobile-menu">
+        <li routerLinkActive="active"><a routerLink="/students"><i class="material-icons left">group</i>Students</a></li>
+        <li routerLinkActive="active"><a routerLink="/homework"><i class="material-icons left">music_note</i>Homework</a></li>
+        <li routerLinkActive="active"><a routerLink="/teacher"><i class="material-icons left">control_point</i>Teacher</a></li>
+        <li routerLinkActive="active"><a routerLink="/login"><i class="material-icons left">person</i>Login</a></li>
+      </ul>
+    </div>
+  </nav>
+</header>

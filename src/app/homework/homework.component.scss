@@ -1,0 +1,10 @@
+.tabs .indicator{
+  background-color: #187e2e;
+}
+.tabs .tab a:focus, .tabs .tab a:focus.active{
+  background: lightseagreen;
+}
+
+//.tabs .indicator{
+//  @extend .blue-text, .text-lighten-4;
+//}
